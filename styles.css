@@ -1,0 +1,256 @@
+/*reset css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+} 
+ 
+
+
+/*css for styles*/
+#header-img{
+    width: 300px;
+    height: 34,138px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20.5px; 
+
+}
+
+#header{
+    background-color: #eee;
+    margin: 0 ,20,20,20 ;
+    font-size: 17px;
+    position: fixed;
+     min-height: 75px;
+     width: 1500px; 
+    top: 0;
+    align-items: center; 
+    padding: 0px 20px;
+}
+.nav-link{
+  display: inline-block;
+  margin-right:77px;
+    margin-top: 20.5px; 
+    font-size: 16px;
+    color: #000;
+
+}
+#nav-bar{
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+}
+#li-1{
+    margin-left: 670px;
+
+}
+#hero{
+    margin-top: 150px;
+    text-align: center;
+
+}
+h3{
+    font-size: 30px;  
+     margin-bottom: 20px;
+}
+#submit{
+    margin-top: 20px;
+    background-color:#f1c40f ;
+    width: 170px;
+    height: 30px;
+    font-size: 23px;
+}
+#email{
+    width: 250px;
+    height: 37px;
+}
+body{ 
+   background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+#features{
+    margin-top: 100px;
+     width: 1000px; 
+   
+}
+.section-1{
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: 20px;
+vertical-align: middle;}
+.icon{
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+#car{
+     height: 56px;
+    width: 65px;
+    margin-right: -12px;
+    margin-left: 115px;
+
+}
+#battary{
+    margin-right: -10px;
+    margin-left: 121px;
+    height: 40px;
+    width: 60px;
+}
+#container{
+   max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+#fire{
+    margin-left: 108px;
+    margin-right: -9px;
+}
+#how-it-works{
+    margin-top: 50px;
+     text-align: center;
+}
+#pricing{
+     margin:0 auto; margin-top:50px;
+}
+.product{
+    border: 1px solid #000;
+    width: calc(100% / 3.1);
+     display: inline-block;
+    
+
+}
+.child-1{
+  background-color: #ddd;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 16px;
+}
+.child-2{
+    background-color: #ddd;
+     padding: 15px 0;
+     text-align: center;
+     font-size: 16px;
+}
+.child-3{    
+    background-color: #ddd;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+#bass{
+    margin-left:10px;
+    margin-right: 10px;
+    height: 340px;
+}
+#tenor{
+  
+    height: 340px;
+
+}
+#valve{
+    height: 340px;
+
+}
+.title{
+padding-top: 10px;
+  text-align: center;
+}
+ul{
+    text-align: center;
+   
+}
+.text{
+    padding-top: 17px;
+    padding-bottom: 5px;
+}
+.button{
+    width: 100px;
+    padding: 5px 20px;
+    height: 40px;
+    margin: 30px 109px;
+    border: 0;
+    background-color: #f1c40f;
+}
+/*footer begins below*/
+.footer{
+    border: 2px;
+   
+     width: 1000px;
+    margin: 0 auto;
+     margin-bottom: 0;
+    
+    justify-content: flex-end;
+    height: 100px;
+    background-color:#ddd; 
+     margin-top: 50px;
+    
+}
+.footerA{ display: flex;justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    justify-content: flex-end;
+}
+#marginis{
+    margin-left: 17px;
+    margin-right: 17px;
+
+}
+#spanee{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+        color: #444;
+    padding-right: 17px;
+}
